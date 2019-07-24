@@ -411,6 +411,10 @@ To **quit** the `man` pages, press <kbd>Q</kbd>.
 > Some of its output is about properties that we do not cover in this lesson (such
 > as file permissions and ownership), but the rest should be useful
 > nevertheless.
+> **NOTE:** When using more than 1 option in the same command, it is possible to combine the 
+> options with the use of a single `-`.  For example `ls -l -h` can be shortened into `ls -lh`.
+> This is especially handy when you may need to use several options at once.  Be careful doing
+> this by always checking `--help` first.
 >
 > > ## Solution
 > > The `-l` option makes `ls` use a **l**ong listing format, showing not only
